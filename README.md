@@ -8,13 +8,13 @@ Allows reception of FM-radio, ADS-B flight information, SDR for DAB/DAB+ and man
 
 Tools included:
 
-- rtl_adsb (ADS-B flight information receiver host)
-- rtl_fm (FM receiver host)
-- rtl_sdr (Software Defined Radio - ie DAB/DAB+ host)
-- rtl_test (Test device and host throughput)
-- rtl_eeprom (List device capabilities)
+- rtl_adsb (ADS-B flight information decoder)
+- rtl_fm (FM demodulator)
+- rtl_sdr (Software Defined Radio I/Q recorder - ie DAB/DAB+ stream receiver)
+- rtl_test (Benchmark tool for host and device)
+- rtl_eeprom (Dumps configuration and also writes EEPROM configuration)
 - rtl_power (Wide band frequency power scanner see http://www.rtl-sdr.com/rtl_power-instructions/)
-- rtl_tcp (TCP/IP server to host data stream onto network)
+- rtl_tcp (I/Q spectrum server for remote usage of the RTL-device)
 
 ## Compiling
 
