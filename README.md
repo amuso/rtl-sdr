@@ -18,8 +18,7 @@ Tools included:
 
 ## Requirements
 
-CMake for Mac OS X (https://cmake.org/download/)
-libusb for Mac OS X (https://github.com/amuso/libusb) - Compiling instructions to come
+CMake for Mac OS X (https://cmake.org/download/) and libusb for Mac OS X (https://github.com/amuso/libusb). Compiling instructions to come. XCode command line tools.
 
 ## Compiling
 
