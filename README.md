@@ -18,7 +18,9 @@ Tools included:
 
 ## Requirements
 
-CMake for Mac OS X (https://cmake.org/download/) and libusb for Mac OS X (https://github.com/amuso/libusb). Compiling instructions to come. XCode command line tools.
+- XCode command line tools from Apple.
+- CMake for Mac OS X (pre-built binaries are available from the developers at  https://cmake.org/download/).
+- libusb for Mac OS X (compiling instructions will follow at https://github.com/amuso/libusb).
 
 ## Compiling
 
@@ -28,7 +30,7 @@ Using Mac OS X terminal tools, make sure you first have the Xcode command line t
 xcode-select --install
 ```
 
-The clone and build this source code
+Then clone and build this source code
 
 ```bash
 git clone https://github.com/amuso/rtl-sdr/
