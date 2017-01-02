@@ -73,7 +73,7 @@ Using device 0: Generic RTL2832U OEM
 Found Rafael Micro R820T tuner
 Supported gain values (29): 0.0 0.9 1.4 2.7 3.7 7.7 8.7 12.5 14.4 15.7 16.6 19.7 20.7 22.9 25.4 28.0 29.7 32.8 33.8 36.4 37.2 38.6 40.2 42.1 43.4 43.9 44.5 48.0 49.6 
 [R82XX] PLL not locked!
-Sampling at 2048000 S/s.
+Sampling at 2500000 S/s.
 
 Info: This tool will continuously read from the device, and report if
 samples get lost. If you observe no further output, everything is fine.
@@ -84,7 +84,7 @@ Reading samples in async mode...
 User cancel, exiting...
 Samples per million lost (minimum): 0
 ```
-- Run rtl_fm to play FM radio station (only mono supported). Requires ie. SoX (play) or similar audio playback binary. Note! Pre-built SoX (play) binaries are available from the developers at http://sox.sourceforge.net/
+- Run rtl_fm to play FM radio station (only mono supported). Requires ie. SoX (play) or similar audio playback binary. Note! Pre-built SoX (play) binaries are available from the developers at http://sox.sourceforge.net/. Also see http://kmkeen.com/rtl-demod-guide/ for more examples.
 ```
 $ rtl_fm -M fm -s 170k -A fast -r 32k -l 0 -E deemp -f 103.8M | play -r 32k -t raw -e s -b 16 -c 1 -V1 -
 ```
