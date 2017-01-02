@@ -16,6 +16,11 @@ Tools included:
 - rtl_power (Wide band frequency power scanner see http://www.rtl-sdr.com/rtl_power-instructions/)
 - rtl_tcp (I/Q spectrum server for remote usage of the RTL-device)
 
+## Requirements
+
+CMake for Mac OS X (https://cmake.org/download/)
+libusb for Mac OS X (https://github.com/amuso/libusb) - Compiling instructions to come
+
 ## Compiling
 
 Using Mac OS X terminal tools, make sure you first have the Xcode command line tools available:
