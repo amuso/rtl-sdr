@@ -1,4 +1,5 @@
 # rtl-sdr for Mac OS X
+## version 0.5.3-21g7f00 (0.5git)
 
 Turns Realtek RTL2832-based USB-dongle into a SDR (Software Defined Radio) receiver.
 
@@ -20,7 +21,8 @@ Tools included:
 
 - XCode command line tools from Apple.
 - CMake for Mac OS X (pre-built binaries are available from the developers at  https://cmake.org/download/).
-- libusb for Mac OS X (compiling instructions will follow at https://github.com/amuso/libusb).
+- libusb (compiling instructions will follow at https://github.com/amuso/libusb).
+- GNU pkg-config (compiling instructions will follow at https://github.com/amuso/pkg-config)
 
 ## Compiling
 
